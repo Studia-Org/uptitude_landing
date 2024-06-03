@@ -19,9 +19,8 @@ A simple landing page theme built with AstroJS and TailwindCSS, specifically des
 -   Blazingly Fast
 -   100/100 Lighthouse performance
 -   Responsive & SEO-friendly with canonical URLs, OpenGraph data and Meta tags.
--  Sitemap support
-- More than 10+ Components to use!
-
+-   Sitemap support
+-   More than 10+ Components to use!
 
 ## Lighthouse Score
 
@@ -75,13 +74,9 @@ Check out [Astro's documentation](https://docs.astro.build).
 
 ## Deploy
 
-You can deploy your own Astro site on various platforms by following the [Astro docs](https://docs.astro.build/en/guides/deploy/) guide. 
+You can deploy your own Astro site on various platforms by following the [Astro docs](https://docs.astro.build/en/guides/deploy/) guide.
 
 By default, the site will be built (see Commands section above) to a `/dist` directory.
-
-## Feedback and Suggestions
-
-If you have any suggestions/feedback feel free to open an issue if you find bugs or want to request new features.
 
 ---
 

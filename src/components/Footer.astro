@@ -18,27 +18,9 @@ const year = date.getFullYear();
             >
                 <div class="col-span-6">
                     <div class="footer--logo grid gap-8">
-                        <a href="/">
-                            <Image
-                                src="/nutritrack.svg"
-                                alt="logo"
-                                class="h-6 w-auto"
-                                height={24}
-                                aspectRatio={7 / 1}
-                                format={"webp"}
-                            />
-                        </a>
-                        {/* Get Template button; remove if not used */}
-                        <ButtonGroup alignment="left">
-                            <a
-                                role="button"
-                                href="https://github.com/christian-luntok/astro-nutritrack"
-                                class="btn btn--secondary"
-                            >
-                                Get Template
-                                <Icon name="mdi:arrow-right" class="w-6" />
-                            </a>
-                        </ButtonGroup>
+                        <h2 class="logo mb-0 text-3xl font-extrabold italic">
+                            Uptitude<span class="text-pink-600">.</span>
+                        </h2>
                     </div>
                 </div>
                 <div class="col-span-6">
@@ -76,11 +58,11 @@ const year = date.getFullYear();
     <SectionContainer class="footer-credits relative z-10">
         <div class="wrap wrap-px py-6">
             <p class="my-0">
-                © {year} Nutritrack. All rights reserved{" - "}
+                © {year} Uptitude. All rights reserved{" - "}
                 <span class="font-normal">
-                    A template by{" "}
+                    Design by{" "}
                     <a
-                        class="transition-colors duration-300 hover:text-secondary-700"
+                        class="transition-colors duration-300 hover:text-indigo-700"
                         href="https://chrstnl.com"
                         target="_blank"
                     >

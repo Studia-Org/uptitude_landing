@@ -38,14 +38,13 @@ import Column from "@/components/Column.astro";
                     <BadgeIcon icon="mdi:star-circle-outline" />
                 </BadgeGroup>
                 <PageTitle class="text-center mx-auto" type="default">
-                    Simplify Your Nutrition Journey with NutriTrack
+                    Simplify your Learning Experience with Uptitude
                 </PageTitle>
                 <Content class="text-center" alignment="center">
                     <p>
-                        Hey there! Welcome to NutriTrack, the ultimate nutrition
-                        meal planner powered by Notion. We&apos;ve got some
-                        awesome features lined up to make your nutrition journey
-                        a piece of cake (pun intended). Check them out:
+                        Hey there! Welcome to Uptitude, the first e-learning
+                        platform specialized in designing courses based on
+                        self-regulation processes.
                     </p>
                 </Content>
                 <ContentImage contentImageData={featuresData} />
@@ -54,72 +53,151 @@ import Column from "@/components/Column.astro";
             <SectionContainer class="feature-tabs">
                 <BadgeGroup alignment="center">
                     <BadgeMessage>More Features</BadgeMessage>
-                    <BadgeIcon icon="twemoji:waving-hand" />
+                    <BadgeIcon icon="mdi:star-circle-outline" />
                 </BadgeGroup>
                 <PageTitle class="text-center mx-auto" type="default">
-                    Master Your Meal Planning and Nutrition Journey
+                    Your Path, Your Pace: Join Our Community of Self-Regulated
+                    Learners
                 </PageTitle>
                 <Content class="text-center" alignment="center">
                     <p>
-                        Our comprehensive Notion template designed to empower
-                        you on your meal planning and nutrition journey. With
-                        our user-friendly features, customizable layouts, and
-                        seamless recipe integration, taking control of your
-                        meals has never been easier.
+                        Explore Your Path to Self-Regulated Learning. Our LMS
+                        offers customizable activities and AI-powered chatbot
+                        support, empowering you to tailor your learning
+                        experience and succeed at your own pace.
                     </p>
                 </Content>
                 <CardGroup
                     class="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-2"
                 >
                     <Card class="col-span-1 text-primary-900">
-                        <CardBody class="w-full bg-white-600/20 p-12">
+                        <CardBody
+                            class="w-full bg-white-600/20 p-12 border rounded"
+                        >
                             <CardImage
-                                src="/images/features4.png"
+                                src="/images/profile.png"
                                 alt="Customizable Layouts image used."
                             />
                             <CardHeader
                                 class="!text-black !text-2xl !font-bold"
                             >
-                                Customizable Layouts
+                                Customizable Profiles
                             </CardHeader>
                             <p>
-                                Personalize your meal planning experience with
-                                our flexible layouts. Tailor your sections,
-                                categories, and tabs to suit your unique style
-                                and organization preferences. Our template
-                                adapts to your needs, providing a seamless and
-                                personalized planning experience.
+                                The platform features a section dedicated to
+                                customizable profiles, allowing users to
+                                personalize their experience. Students can
+                                adjust settings, preferences, and other elements
+                                to tailor their user profiles to their
+                                individual needs and goals.
                             </p>
                         </CardBody>
                     </Card>
                     <Card class="col-span-1 text-primary-900">
-                        <CardBody class="w-full bg-white-600/20 p-12">
+                        <CardBody
+                            class="w-full bg-white-600/20 p-12 border rounded"
+                        >
                             <CardImage
-                                src="/images/features3.png"
-                                alt="Progress Tracking image used."
+                                imageClass="object-contain"
+                                src="/images/self-assesment.png"
+                                alt="Peer evaluation system on Uptitude."
                             />
                             <CardHeader
                                 class="!text-black !text-2xl !font-bold"
                             >
-                                Progress Tracking
+                                Self Assesment
                             </CardHeader>
                             <p>
-                                Celebrate your wins and stay motivated on your
-                                nutrition journey. NutriTrack allows you to
-                                monitor your progress with weight, measurements,
-                                and other key metrics. Track your improvements
-                                over time and see the positive impact of your
-                                healthy choices.
+                                Each person can self-assess using the rubrics
+                                created by the teacher, which provide
+                                information about the criteria. This comparative
+                                activity helps students justify their choices
+                                regarding their performance level and plan
+                                improvements in designated spaces.
+                            </p>
+                        </CardBody>
+                    </Card>
+                    <Card class="col-span-1 text-primary-900">
+                        <CardBody
+                            class="w-full bg-white-600/20 p-12 border rounded"
+                        >
+                            <CardImage
+                                imageClass="object-contain"
+                                src="/images/chatbot.png"
+                                alt="Peer evaluation system on Uptitude."
+                            />
+                            <CardHeader
+                                class="!text-black !text-2xl !font-bold"
+                            >
+                                Chatbot
+                            </CardHeader>
+                            <p>
+                                A chatbot is available to act as a tutor,
+                                supporting the self-regulation process and
+                                offering guidelines for managing time,
+                                information, certain study habits, etc.
+                            </p>
+                        </CardBody>
+                    </Card>
+
+                    <Card class="col-span-1 text-primary-900">
+                        <CardBody
+                            class="w-full bg-white-600/20 p-12 border rounded"
+                        >
+                            <CardImage
+                                imageClass="object-contain"
+                                src="/images/calendar.png"
+                                alt="Peer evaluation system on Uptitude."
+                            />
+                            <CardHeader
+                                class="!text-black !text-2xl !font-bold"
+                            >
+                                Calendar
+                            </CardHeader>
+                            <p>
+                                The calendar is a tool that helps students
+                                organize their time, plan their activities, and
+                                set deadlines. It is a visual representation of
+                                the time available for each task, which helps
+                                students manage their time more effectively.
                             </p>
                         </CardBody>
                     </Card>
                 </CardGroup>
             </SectionContainer>
             <!-- More Features -->
+
+            <SectionContainer id="responsive" class="benefits">
+                <BadgeGroup alignment="center">
+                    <BadgeMessage>Responsive</BadgeMessage>
+                    <BadgeIcon icon="mdi:monitor-screenshot" />
+                </BadgeGroup>
+                <PageTitle class="text-center mx-auto" type="default">
+                    Seamless Learning Across Every Screen
+                </PageTitle>
+                <Content class="text-center" alignment="center">
+                    <p>
+                        Experience our responsive design tailored for all
+                        devices.
+                    </p>
+                    <div class="relative flex justify-center items-center">
+                        <img
+                            class="relative w-[25rem] lg:w-[50rem]"
+                            src="/images/resp_laptop.png"
+                            alt="Responsive Design"
+                        />
+                        <img
+                            class="absolute w-[15rem] lg:w-[30rem] top-1/2 transform -translate-y-1/4 lg:-right-8 right-0 md:right-32"
+                            src="/images/resp_mobile.png"
+                            alt="Responsive Design"
+                        />
+                    </div>
+                </Content>
+            </SectionContainer>
             <SectionContainer id="testimonials" class="benefits">
                 <BadgeGroup alignment="left">
                     <BadgeMessage>Testimonials</BadgeMessage>
-                    <BadgeIcon icon="twemoji:waving-hand" />
+                    <BadgeIcon icon="mdi:account-group" />
                 </BadgeGroup>
                 <PageTitle class="" type="default">
                     This is what our customers have to say about Uptitude
@@ -130,6 +208,7 @@ import Column from "@/components/Column.astro";
             <SectionContainer id="faq" class="faq">
                 <BadgeGroup alignment="center">
                     <BadgeMessage>FAQ</BadgeMessage>
+                    <BadgeIcon icon="mdi:frequently-asked-questions" />
                 </BadgeGroup>
                 <PageTitle class="text-center mx-auto" type="default">
                     Got some burning questions about Uptitude?
@@ -144,5 +223,6 @@ import Column from "@/components/Column.astro";
         </SectionContainer>
     </div>
     <!-- FAQ -->
+
+    <!-- Components Container -->
 </Layout>
-<!-- Components Container -->

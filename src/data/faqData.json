@@ -1,26 +1,32 @@
 [
     {
         "id": 1,
-        "title": "What is Notion?",
+        "title": "What is Uptitude?",
         "isOpen": true,
-        "content": "Notion is an all-in-one productivity tool that allows you to create notes, databases, and collaborative workspaces, making it easy to organize and manage your tasks, projects, and ideas in one place."
+        "content": "Uptitude is an e-learning platform explicitly designed to promote student self-regulation through assessment processes that involve the students themselves and are accompanied by feedback. It can be used as a platform to design an entire course or training activity, functioning as a virtual classroom, or as a complement to the platform your institution uses to develop subjects or tasks directly linked to self-regulated learning and that require closer monitoring."
     },
     {
         "id": 2,
-        "title": "Who is this template for?",
+        "title": "Who is behind this project?",
         "isOpen": false,
-        "content": "This template is specifically designed for Notion creators who want to create a personalized landing page for their Notion workspace, showcasing their projects, services, or content in a visually appealing manner."
+        "content": "Behind this project is a group of students and professors from the University of Barcelona who are passionate about education and technology.  We are working hard to make Uptitude a reality and help students improve their learning processes."
     },
     {
         "id": 3,
         "title": "Do I need to pay for this?",
         "isOpen": false,
-        "content": "No, this is free."
+        "content": "Currently, Uptitude is still in development. We will notify you in advance when the product is ready for using it. Stay tuned!"
+    },
+    {
+        "id": 4,
+        "title": "Where can I ask more questions about Uptitude",
+        "isOpen": false,
+        "content": "You can ask more questions about Uptitude by sending an email to uptitudeapp@gmail.com. We will be happy to help you!"
     },
     {
         "id": 5,
-        "title": "Where can I ask more questions about this template?",
+        "title": "What is self-regulation?",
         "isOpen": false,
-        "content": "If you have any further questions or need assistance regarding this template, please feel free to reach out to me on my website, or click the Contact within the navigation links."
+        "content": "Self-regulation refers to the ability of individuals to manage their own learning processes effectively. This involves setting goals, monitoring progress, staying motivated, and making adjustments as needed. In the context of education, it means that students take an active role in their learning by planning, monitoring their understanding, and evaluating their progress, often with the help of feedback and reflection. This helps them become more autonomous and effective learners."
     }
 ]

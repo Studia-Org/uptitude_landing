@@ -1,16 +1,30 @@
 [
     {
         "id": 1,
-        "title": "Effortless Planning",
-        "content": "Say goodbye to meal planning stress! With NutriTrack, planning your meals becomes a breeze. Our user-friendly Notion template lets you create customized daily or weekly meal plans effortlessly. Enjoy a balanced and nutritious diet without the hassle.",
+        "title": "Easy Course Creation",
+        "content": "Uptitude has pre-created sequences, as well as the ability to create custom sequences by combining different types of activities as desired. Each activity can be designated as a proposal for the student to plan, monitor, or self-reflect, following the Zimmerman model.",
         "align": "right",
-        "image": "/images/features1.png"
+        "image": "/images/course-creation66.png"
     },
     {
-        "id": 1,
-        "title": "Shopping List",
-        "content": "We've got your grocery shopping covered! NutriTrack includes a handy shopping list feature. As you plan your meals, the template automatically generates a comprehensive shopping list. No more forgotten items or aimless wandering in the supermarket. Shopping for healthy ingredients has never been easier!",
+        "id": 2,
+        "title": "Customizable Objectives Progression",
+        "content": "Uptitude allows users to set their own objectives (using pre-created tags and writing their goals). Throughout the process, and based on the information that Uptitude collects and provides, users can monitor their progress in achieving these objectives.",
         "align": "left",
-        "image": "/images/features2.png"
+        "image": "/images/objetivos.png"
+    },
+    {
+        "id": 3,
+        "title": "Dashboard",
+        "content": "The student's activity is collected and displayed graphically (progress bars, achievement percentages, performance levels). The dashboard is designed for the student themselves, so it provides information that allows them to adjust their goals, planning, etc.",
+        "align": "right",
+        "image": "/images/dashboard.png"
+    },
+    {
+        "id": 4,
+        "title": "Peer Review Activities",
+        "content": "Peer evaluations can be conducted both individually and in groups in a very agile and intuitive manner for both teachers and students. These evaluations are primarily qualitative, allowing for the provision of comments and suggestions for improvement, thereby strengthening the skills of both the evaluatees and the evaluators.",
+        "align": "left",
+        "image": "/images/peer-review.png"
     }
 ]

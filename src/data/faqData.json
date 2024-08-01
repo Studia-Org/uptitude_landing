@@ -28,5 +28,18 @@
         "title": "What is self-regulation?",
         "isOpen": false,
         "content": "Self-regulation refers to the ability of individuals to manage their own learning processes effectively. This involves setting goals, monitoring progress, staying motivated, and making adjustments as needed. In the context of education, it means that students take an active role in their learning by planning, monitoring their understanding, and evaluating their progress, often with the help of feedback and reflection. This helps them become more autonomous and effective learners."
+    },
+    
+    {
+        "id": 6,
+        "title": "What is the difference between Uptitude and Moodle?",
+        "isOpen": false,
+        "content": "Moodle is a learning management system (LMS) that allows teachers to create online courses, manage assignments, and communicate with students. Uptitude, on the other hand, is an e-learning platform specifically designed to promote student self-regulation through assessment processes that involve the students themselves and are accompanied by feedback. While Moodle focuses on course management and content delivery, Uptitude focuses on promoting self-regulated learning through assessment and feedback processes. Uptitude can be used as a complement to Moodle or other LMSs to provide students with additional support for self-regulated learning."
+    },
+    {
+        "id": 7,
+        "title": "Book a demo!",
+        "isOpen": false,
+        "content": "If you are interested on joining the project, send an email to uptitudeapp@gmail.com and we will schedule a demo for you!"
     }
 ]

@@ -37,7 +37,16 @@ const { contentImageData } = Astro.props;
                     <h3 class="mb-6 h4 md:h3 font-semibold text-black">
                         {item.title}
                     </h3>
-                    <p>{item.content}</p>
+                    <p>
+                        {item.content}{" "}
+                        <a
+                            class="underline"
+                            href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5408091/"
+                        >
+                            {item.anchor}
+                        </a>
+                    </p>
+
                     <ul class="process-item--list space-y-3">
                         {item.listItems?.length &&
                             item.listItems.map((listItem) => (

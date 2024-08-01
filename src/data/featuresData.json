@@ -2,9 +2,10 @@
     {
         "id": 1,
         "title": "Easy Course Creation",
-        "content": "Uptitude has pre-created sequences, as well as the ability to create custom sequences by combining different types of activities as desired. Each activity can be designated as a proposal for the student to plan, monitor, or self-reflect, following the Zimmerman model.",
+        "content": "Uptitude has pre-created sequences, as well as the ability to create custom sequences by combining different types of activities as desired. Each activity can be designated as a proposal for the student to plan, monitor, or self-reflect, following the",
         "align": "right",
-        "image": "/images/course-creation66.png"
+        "image": "/images/course-creation66.png",
+        "anchor": "Zimmerman model."
     },
     {
         "id": 2,
